@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imprimerie Imen J.M.S - Officiel</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+            background-color: #faf8f6;
+            color: #4a4a4a;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .card {
+            width: 100%;
+            max-width: 480px;
+            background: #ffffff;
+            border: 1px solid rgba(220, 190, 170, 0.4);
+            border-radius: 24px;
+            padding: 40px 30px;
+            text-align: center;
+            box-shadow: 0 15px 35px rgba(150, 140, 135, 0.1), 0 0 25px rgba(220, 190, 170, 0.05);
+        }
+        .logo-container {
+            width: 160px;
+            height: 160px;
+            margin: 0 auto 20px auto;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid #e2cfc4;
+            background-color: #ffffff;
+            padding: 5px;
+        }
+        .logo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 50%;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: 600;
+            color: #6d8285;
+            letter-spacing: 1px;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+        }
+        .tagline {
+            font-size: 13px;
+            color: #bfa395;
+            margin-bottom: 30px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+        .links-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 15px 20px;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 600;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+        .btn-fb-1 {
+            background-color: #4b69a8;
+        }
+        .btn-fb-2 {
+            background-color: #5a7ec7;
+        }
+        .btn-insta {
+            background: linear-gradient(45deg, #e07a5f, #f4a261, #e76f51);
+        }
+        .btn-tiktok {
+            background-color: #111111;
+        }
+        .btn-wa {
+            background-color: #4caf50;
+        }
+        .footer {
+            margin-top: 35px;
+            font-size: 11px;
+            color: #a0a0a5;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="logo-container">
+            <img src="logo.png" alt="Imprimerie Imen J.M.S Logo">
+        </div>
+
+        <h1>Imprimerie Imen J.M.S</h1>
+        <div class="tagline">Créations & Personnalisation</div>
+
+        <div class="links-wrapper">
+            <a href="https://www.facebook.com/share/1BVozXCu9G/" class="btn btn-fb-1" target="_blank">Page Facebook 1</a>
+            <a href="https://www.facebook.com/share/18zPcJ6bv5/" class="btn btn-fb-2" target="_blank">Page Facebook 2</a>
+            <a href="https://www.instagram.com/amounajms?igsh=N3NwcXp5OHZtMmY3" class="btn btn-insta" target="_blank">Instagram (@amounajms)</a>
+            <a href="https://www.tiktok.com/@imenjms?_r=1&_t=ZS-97U5UbGrZmn" class="btn btn-tiktok" target="_blank">TikTok (@imenjms)</a>
+
+            <a href="https://wa.me/21626248080" class="btn btn-wa" target="_blank">Contact WhatsApp Direct</a>
+        </div>
+
+        <div class="footer">
+            © 2026 Imprimerie Imen J.M.S. Tous droits réservés.
+        </div>
+    </div>
+
+</body>
+</html>
